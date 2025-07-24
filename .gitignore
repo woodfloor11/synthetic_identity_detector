@@ -1,0 +1,17 @@
+# Ignore Python cache and virtual environments
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+venv/
+.env
+
+# Ignore large data or model files
+*.npy
+*.h5
+.DS_Store
+
+# Ignore image datasets
+real_vs_fake/
+
+
